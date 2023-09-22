@@ -37,7 +37,7 @@ var audio = new Audio("open.mp3");
 function losuj(){
     let x;
     let y=0;
-    for(x=0;x<21;x++){
+    for(x=0;x<20;x++){
         y=Math.floor(Math.random() * listaWymowekCount);
         if(x!=18){
             losersAll[x].innerHTML=listaWymowek[y];
